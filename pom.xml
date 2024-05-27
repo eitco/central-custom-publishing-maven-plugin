@@ -6,24 +6,25 @@
     <parent>
         <groupId>de.eitco</groupId>
         <artifactId>eitco-oss-parent</artifactId>
-        <version>0.0.2</version>
+        <version>0.0.5</version>
     </parent>
 
 
-    <!-- TODO: replace with your coordinates -->
-    <groupId>de.eitco</groupId>
-    <artifactId>eitco-maven-template</artifactId>
+    <groupId>de.eitco.cicd</groupId>
+    <artifactId>central-custom-publishing-maven-plugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <developers>
-        <!-- TODO: add developers concerned -->
+        <developer>
+            <name>Jan Schwarz</name>
+            <email>jschwarz@eitco.de</email>
+        </developer>
     </developers>
 
     <scm>
-        <!-- TODO: replace with your repository url -->
-        <url>https://github.com/eitco/maven-template.git</url>
-        <connection>scm:git:https://github.com/eitco/maven-template.git</connection>
-        <developerConnection>scm:git:https://github.com/eitco/maven-template.git</developerConnection>
+        <url>https://github.com/eitco/central-custom-publishing-maven-plugin.git</url>
+        <connection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</developerConnection>
     </scm>
 
     <build>
