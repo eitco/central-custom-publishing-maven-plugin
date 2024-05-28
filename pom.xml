@@ -15,6 +15,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
+    <description>
+        This maven plugin provides single steps of the central publishing process using the underlying api of the
+        central publishing maven plugin.
+    </description>
+
     <developers>
         <developer>
             <name>Jan Schwarz</name>
