@@ -11,7 +11,7 @@
 
     <groupId>de.eitco.cicd</groupId>
     <artifactId>central-custom-publishing-maven-plugin</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <description>
@@ -30,7 +30,7 @@
         <url>https://github.com/eitco/central-custom-publishing-maven-plugin.git</url>
         <connection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</developerConnection>
-      <tag>0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
