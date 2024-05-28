@@ -13,6 +13,7 @@
     <groupId>de.eitco.cicd</groupId>
     <artifactId>central-custom-publishing-maven-plugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>maven-plugin</packaging>
 
     <developers>
         <developer>
@@ -26,6 +27,40 @@
         <connection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/eitco/central-custom-publishing-maven-plugin.git</developerConnection>
     </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.sonatype.central</groupId>
+            <artifactId>central-publishing-maven-plugin</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-compat</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.lingala.zip4j</groupId>
+            <artifactId>zip4j</artifactId>
+            <version>2.11.5</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
